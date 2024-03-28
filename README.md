@@ -5,7 +5,7 @@ ___
   https://github.com/IrinaOleynik/SOLID_Shop/blob/9ed3f5d8cb93fe20bca5a04e479f8babdca8feee/src/basket/Basket.java#L20
   
 ### DRY: 
--  в методах `filtredStock` и `addProduct` для добавления товара в корзину используется метод `addProduct`. Для взаимодействия пользователя со списком товаров, отфильтрованном вне зависимости от способа фильтрации товаров, используется метод `filtredStock`.  Это позволяет избежать дублированния кода при выполнении единообразных операций;
+-  для взаимодействия пользователя со списком товаров, отфильтрованном вне зависимости от способа фильтрации товаров, используется метод `filtredStock`.  Это позволяет избежать дублированния кода при выполнении единообразных операций;
 https://github.com/IrinaOleynik/SOLID_Shop/blob/9ed3f5d8cb93fe20bca5a04e479f8babdca8feee/src/Main.java#L51
 https://github.com/IrinaOleynik/SOLID_Shop/blob/9ed3f5d8cb93fe20bca5a04e479f8babdca8feee/src/Main.java#L62
 
